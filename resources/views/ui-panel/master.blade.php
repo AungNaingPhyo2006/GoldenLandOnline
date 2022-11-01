@@ -80,7 +80,6 @@
                 <!-- FOOTER SECTION  -->
     <div class="footer">
         <div class="row">
-  
           <div class="col-sm-12 col-md-4 mb-4">
             <h5>ABOUT THIS WEBSITE</h5>
             <p>
@@ -96,19 +95,19 @@
   
           <div class="col-sm-12 col-md-4">
             <h5>FOLLOW ME ON</h5>
-            <a href="https://www.facebook.com" target="_blank">
+            <a href="https://www.facebook.com" target="_blank" class="btn btn-sm btn-outline-warning">
               <i class="fab fa-facebook-square"></i>
             </a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <a href="https://www.instagram.com" target="_blank">
+           <a href="https://www.instagram.com" target="_blank"  class="btn btn-sm btn-outline-warning">
             <i class="fab fa-instagram-square"></i>
            </a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com" target="_blank">
+            <a href="https://www.linkedin.com" target="_blank"  class="btn btn-sm btn-outline-warning">
               <i class="fab fa-linkedin"></i>
             </a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="">
+            <a href="https://wwww.twitter.com" target="_blank" class="btn btn-sm btn-outline-warning">
               <i class="fab fa-twitter-square"></i>
             </a>
           </div>

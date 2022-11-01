@@ -29,7 +29,7 @@
             <nav class="col-2 bg-info pe-2 fixed-top mt-2">
                 <h1 class="h5 text-dark text-uppercase text-center py-2">
                     <i class="fas fa-user-cog me-2"></i>
-                    <span class="d-none d-lg-inline">Admin Dashboard</span>
+                    <span class="d-none d-lg-inline">Book Review</span>
                 </h1>
                 <!-- Menu Items -->
                 <ul class="list-group text-center text-lg-start mt-4 ms-2">
@@ -113,7 +113,7 @@
             <main class="col-10 bg-info ms-auto">
                 <div class="navbar navbar-expand navbar-light bg-info">
                     <div class="flex-fill bg-info"> 
-                        <h6 class="text-center mt-2 text-dark text-uppercase"><strong>Book Store Admin Dashboard</strong></h6>
+                        <h6 class="text-center mt-2 text-dark text-uppercase"><strong>Book Review Admin Dashboard</strong></h6>
                     </div>
 
                     <div class="navbar-nav bg-info">

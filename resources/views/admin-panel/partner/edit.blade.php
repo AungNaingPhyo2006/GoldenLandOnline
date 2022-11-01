@@ -1,5 +1,5 @@
 @extends('admin-panel.master')
-@section('title', 'Book Store')
+@section('title', 'Book Review')
 
 @section('content')
     <div class="container">

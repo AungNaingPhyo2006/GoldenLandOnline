@@ -1,5 +1,5 @@
 @extends('ui-panel.master')
-@section('title','Book Store')
+@section('title','Book Review')
 
 @section('content')
 
