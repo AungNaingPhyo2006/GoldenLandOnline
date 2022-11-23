@@ -16,7 +16,7 @@ class CategoryController extends Controller
     public function index()
     {
         $categories = Category::paginate(5);
-        return view('admin-panel.category.index', compact('categories'));
+        return view('backend.category.index', compact('categories'));
     }
 
     /**
@@ -26,7 +26,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('admin-panel.category.create');
+        return view('backend.category.create');
     }
 
     /**
@@ -38,13 +38,14 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'name' => 'required|unique:categories'
+            'name' => 'required',
+            'content' => 'required',
         ]);
-
         Category::create([
             'name' => $request->name,
+            'content' => $request->content,
         ]);
-        return redirect('admin/categories')->with('info', 'You have successfully created.');
+        return redirect('admin/category')->with('info', 'You have successfully created.');
     }
 
     /**
@@ -55,7 +56,7 @@ class CategoryController extends Controller
      */
     public function show($id)
     {
-        //
+        return " I am Show" . $id;
     }
 
     /**
@@ -67,7 +68,7 @@ class CategoryController extends Controller
     public function edit($id)
     {
         $category = Category::find($id);
-        return view('admin-panel.category.edit', compact('category'));
+        return view('backend.category.edit', compact('category'));
     }
 
     /**
@@ -79,13 +80,18 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $category = Category::find($id);
+
         $request->validate([
-            'name' => 'required|unique:categories,name,' . $id
+            'name' => 'required',
+            'content' => 'required',
         ]);
-        Category::find($id)->update([
+
+        $category->update([
             'name' => $request->name,
+            'content' => $request->content,
         ]);
-        return redirect('admin/categories')->with('info', 'You have successfully updated.');
+        return redirect('admin/category')->with('info', 'You have successfully updated.');
     }
 
     /**
@@ -96,7 +102,8 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        Category::find($id)->delete();
-        return back()->with('info', 'You have successflly Deleted.');
+        $category = Category::find($id);
+        $category->delete();
+        return redirect('/admin/category')->with('info', 'You have successfully deleted.');
     }
 }

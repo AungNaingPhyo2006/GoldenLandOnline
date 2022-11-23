@@ -1,8 +1,8 @@
-## About Book Review App
+## About Golden Land Online Education Web App Demo
 
-Book Review is a web application using PHP/Laravel framework with expressive, elegant syntax. I believe my development must be an enjoyable and creative experience to be truly fulfilling.
+Golden Land Online Education Web App is a web application using PHP/Laravel framework as demo.
 
-## clone Book Review
+## clone Golden Land Online Education Web App
 
 ## change current directory
 

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Book Review</title>
+        <title>Golden Land</title>
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -134,7 +134,7 @@
                 </div>
             </div> --}}
              
-            <div style="font-size: 4rem"> Book Review</div>
+            <div style="font-size: 4rem"> Golden Land</div>
         </div>
     </body>
 </html>
