@@ -1,15 +1,21 @@
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+
 ## About Golden Land Online Education Web App Demo
 
 Golden Land Online Education Web App is a web application using PHP/Laravel framework as demo.
 
-## clone Golden Land Online Education Web App
 
-git clone https://github.com/AungNaingPhyo2006/GoldenLandOnline
+## Quick Start 
+clone the repo
+```
+    git clone https://github.com/AungNaingPhyo2006/GoldenLandOnline
+```
 
-## change current directory
+change current directory
 
+```
 cd GoldenLandOnline
-
+```
 ## install dependices
 
 <p> composer install</p>
