@@ -4,7 +4,11 @@ Golden Land Online Education Web App is a web application using PHP/Laravel fram
 
 ## clone Golden Land Online Education Web App
 
+git clone https://github.com/AungNaingPhyo2006/GoldenLandOnline
+
 ## change current directory
+
+cd GoldenLandOnline
 
 ## install dependices
 
